@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<events>
+	<ava name="Solo Skiller" start_date="" end_date="" participation_minutes="10" preparation_seconds="60" min_players="10" max_players="20">
+		<preparation>
+			<npc_spawns>
+				<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+				<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+			</npc_spawns>
+			<doors>
+				<door id="" state="closed"/>
+				<door id="" state="closed"/>
+			</doors>
+			<spawnpoints>
+				<spawnpoint x="" y="" z="" heading=""/>
+				<spawnpoint x="" y="" z="" heading=""/>
+				<spawnpoint x="" y="" z="" heading=""/>
+				<spawnpoint x="" y="" z="" heading=""/>
+			</spawnpoints>
+		</preparation>
+		<rounds>
+			<round>
+				<mode name="Deathmatch">
+					<param name="win_kills" value="100"/>
+					<param name="time_limit_minutes" value="5"/>
+					<param name="time_limit_behavior" value="Draw|MostKillsWin"/>
+				</mode>
+				<npc_spawns>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+				</npc_spawns>
+				<doors>
+					<door id="" state="closed"/>
+					<door id="" state="closed"/>
+				</doors>
+				<spawnpoints>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+				</spawnpoints>
+			</round>
+			<round>
+				<mode name="BombingQuiz">
+					<param name="start_points" value="10"/>
+					<param name="question_timeout_seconds" value="30"/>
+					<param name="no_answere_point_reduce" value="1"/>
+					<param name="wrong_answere_point_reduce" value="2"/>
+				</mode>
+				<npc_spawns>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+				</npc_spawns>
+				<doors>
+					<door id="" state="closed"/>
+					<door id="" state="closed"/>
+				</doors>
+				<spawnpoints>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+				</spawnpoints>
+			</round>
+		</rounds>
+	</ava>
+	<tvt name="Team Bash" start_date="" end_date="" participation_minutes="10" preparation_seconds="60" min_team_players="5" max_team_players="10" red_team_name="Fire" blue_team_name="Ice">
+		<preparation>
+			<npc_spawns>
+				<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+				<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+			</npc_spawns>
+			<doors>
+				<door id="" state="closed"/>
+				<door id="" state="closed"/>
+			</doors>
+			<spawnpoints>
+				<red>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+				</red>
+				<blue>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+					<spawnpoint x="" y="" z="" heading=""/>
+				</blue>
+			</spawnpoints>
+		</preparation>
+		<rounds>
+			<round>
+				<mode name="Deathmatch">
+					<param name="win_kills" value="100"/>
+					<param name="time_limit_minutes" value="5"/>
+					<param name="time_limit_behavior" value="Draw|MostKillsWin"/>
+				</mode>
+				<npc_spawns>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+				</npc_spawns>
+				<doors>
+					<door id="" state="closed"/>
+					<door id="" state="closed"/>
+				</doors>
+				<spawnpoints>
+					<red>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+					</red>
+					<blue>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+					</blue>
+				</spawnpoints>
+			</round>
+			<round>
+				<mode name="BombingQuiz">
+					<param name="start_points" value="10"/>
+					<param name="question_timeout_seconds" value="30"/>
+					<param name="no_answere_point_reduce" value="1"/>
+					<param name="wrong_answere_point_reduce" value="2"/>
+				</mode>
+				<npc_spawns>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+				</npc_spawns>
+				<doors>
+					<door id="" state="closed"/>
+					<door id="" state="closed"/>
+				</doors>
+				<spawnpoints>
+					<red>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+					</red>
+					<blue>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+					</blue>
+				</spawnpoints>
+			</round>
+			<round>
+				<mode name="CaptureTheFlag">
+					<param name="red_flag_spawnpoint" value="x,y,z"/>
+					<param name="blue_flag_spawnpoint" value="x,y,z"/>
+					<param name="win_captures" value="5"/>
+					<param name="time_limit_minutes" value="5"/>
+					<param name="time_limit_behavior" value="Draw|MostCapturesWin"/>
+				</mode>
+				<npc_spawns>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+					<npc_spawn id=""><spawnpoint x="" y="" z="" heading=""/></npc_spawn>
+				</npc_spawns>
+				<doors>
+					<door id="" state="closed"/>
+					<door id="" state="closed"/>
+				</doors>
+				<spawnpoints>
+					<red>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+					</red>
+					<blue>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+						<spawnpoint x="" y="" z="" heading=""/>
+					</blue>
+				</spawnpoints>
+			</round>
+		</rounds>
+	</tvt>
+</events>
